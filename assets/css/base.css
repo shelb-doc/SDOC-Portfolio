@@ -19,10 +19,11 @@ header nav h1 {
     background-color: #4aaaa5;
 }
 
-/* content section*/
+/* main section*/
 
-.titles {
+#title {
     color: #4aaaa5;
+    background-color: transparent ;
 }
 
 /* footer section*/
