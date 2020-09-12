@@ -22,6 +22,11 @@ header nav h1 {
 
 /* main section*/
 
+main {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
 #title {
     color: #4aaaa5;
     background-color: transparent ;
