@@ -1,8 +1,16 @@
+/* Common section*/
+
+h1 {
+    font-family: Times New Roman;
+}
+
+
 /* body section*/
 
 body {
     background-image: url("../images/background.jpg");
     background-color: #cccccc;
+    font-family: sans-serif
 }
 
 /* header section*/
@@ -13,8 +21,8 @@ header nav h1 {
 
 /* content section*/
 
-content div div h1 {
-    background-color: #4aaaa5;
+.titles {
+    color: #4aaaa5;
 }
 
 /* footer section*/
