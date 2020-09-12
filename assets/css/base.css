@@ -10,7 +10,8 @@ h1 {
 body {
     background-image: url("../images/background.jpg");
     background-color: #cccccc;
-    font-family: sans-serif
+    font-family: sans-serif;
+    padding-bottom: 60px;
 }
 
 /* header section*/
@@ -24,6 +25,12 @@ header nav h1 {
 #title {
     color: #4aaaa5;
     background-color: transparent ;
+}
+
+.button {
+    color: #fff !important;
+    background-color: #4aaaa5 !important;
+    border-color: #4aaaa5 !important;
 }
 
 /* footer section*/
