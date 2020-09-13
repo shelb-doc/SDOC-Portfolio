@@ -1,31 +1,31 @@
 /* Common section*/
 
 h1 {
-  font-family: Times New Roman;
+    font-family: Times New Roman;
 }
 
 /* body section*/
 
 body {
-  background-image: url("../images/background.jpg");
-  background-color: #cccccc;
-  font-family: sans-serif;
-  padding-bottom: 60px;
+    background-image: url("../images/background.jpg");
+    background-color: #cccccc;
+    font-family: sans-serif;
+    padding-bottom: 60px;
 }
 
 /* header section*/
 
 header nav h1 {
-  background-color: #4aaaa5;
-  font-weight: bold;
+    background-color: #4aaaa5;
+    font-weight: bold;
 }
 
 /* main section*/
 
 main {
-  padding-top: 60px;
-  padding-bottom: 30px;
-  padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    /* padding-left: 30px; */
 }
 
 #title {
@@ -34,31 +34,31 @@ main {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 400px) {
-  main {
-    max-width: 95%;
-  }
-  #main-content {
-    width: 50%;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  main {
-    max-width: 70%;
-  }
-  #main-content {
-    width: 10px;
-  }
+@media only screen and (min-width: 768px) {
+    main {
+        max-width: 70%;
+    }
+    #main-content {
+        width: 10px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
-  main {
-    width: 65%;
-  }
-  #main-content {
-    width: 100%;
-  }
+    main {
+        width: 65%;
+    }
+    #main-content {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    main {
+        max-width: 400px;
+    }
+    #main-content {
+        /* width: 350px; */
+    }
 }
 
 .button {
@@ -70,8 +70,8 @@ main {
 /* footer section*/
 
 .footer {
-  height: 60px; /* Set the fixed height of the footer here */
-  line-height: 60px; /* Vertically center the text there */
-  background-color: #666666;
-  border-top: 5px solid #4aaaa5;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
 }

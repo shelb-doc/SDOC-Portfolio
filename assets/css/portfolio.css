@@ -1,0 +1,10 @@
+/* #img-holder img{
+    max-width: 350px;
+} */
+
+@media only screen and (min-width: 400px) {
+    #img-holder img{
+        max-width: 328px;
+        padding-bottom: 20px;
+    }
+}
