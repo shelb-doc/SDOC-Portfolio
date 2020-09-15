@@ -27,10 +27,7 @@ To view this locally, clone the repository, and open [index.html](index.html) wi
 Thank you to my cat Mimikyu for being my Rubber Ducky.
 
 Thank you to my Testers
-* Sean Fine
-* Jennifer Etheredge
-* James Lee Shupe
-* Leonardo De Oliveira Dias
+
 
 
 ## License

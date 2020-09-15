@@ -25,13 +25,17 @@ header nav h1 {
 main {
     padding-top: 80px;
     padding-bottom: 30px;
-    /* padding-left: 30px; */
+
 }
 
 #title {
-  color: #4aaaa5;
-  background-color: transparent;
-  font-weight: bold;
+    color: #4aaaa5;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+#main-content div img{
+    float: left;
 }
 
 @media only screen and (min-width: 768px) {
@@ -57,14 +61,13 @@ main {
         max-width: 400px;
     }
     #main-content {
-        /* width: 350px; */
     }
 }
 
 .button {
-  color: #fff !important;
-  background-color: #4aaaa5 !important;
-  border-color: #4aaaa5 !important;
+    color: #fff !important;
+    background-color: #4aaaa5 !important;
+    border-color: #4aaaa5 !important;
 }
 
 /* footer section*/
