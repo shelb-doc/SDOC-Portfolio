@@ -29,7 +29,6 @@ Thank you to my cat Mimikyu for being my Rubber Ducky.
 Thank you to my Testers
 
 
-
 ## License
 
 Licensed under the [MIT](LICENSE.txt) license.
