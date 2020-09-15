@@ -1,6 +1,6 @@
 /* Common section*/
 
-h2 {
+h1, h2 {
     font-family: Times New Roman;
 }
 
@@ -59,8 +59,6 @@ main {
 @media only screen and (min-width: 400px) {
     main {
         max-width: 400px;
-    }
-    #main-content {
     }
 }
 
