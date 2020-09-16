@@ -1,18 +1,12 @@
 
-
-@media only screen and (min-width: 400px) {
+/* When the width is between 0px and 768px OR above 768px - change the size of our image */
+@media only screen and (max-width: 768px) and (min-width: 0px), (min-width: 768px) {
     #img-holder img{
-        max-width: 328px;
+        max-width: 100%;
         padding-bottom: 20px;
     }
 }
 
-@media only screen and (min-width: 768px) {
-    #img-holder img{
-        max-width: 350px;
-        padding-bottom: 20px;
-    }
-}
 
 @media only screen and (min-width: 992px) {
     #img-holder img{
