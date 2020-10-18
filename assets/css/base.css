@@ -11,6 +11,7 @@ body {
     background-color: #cccccc;
     font-family: sans-serif;
     padding-bottom: 60px;
+    display: grid;
 }
 
 /* header section*/
@@ -45,6 +46,10 @@ main {
     #main-content {
         width: 130%;
     }
+    #main-content div img{
+        max-width: 100%;
+        padding-bottom: 20px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -54,19 +59,59 @@ main {
     #main-content {
         width: 205%;
     }
+    #main-content div img{
+        max-width: 350px;
+        padding-bottom: 40px;
+        padding-right: 20px;
+    }
 }
 
 @media only screen and (min-width: 400px) {
     main {
         max-width: 400px;
     }
+    #main-content div img{
+        max-width: 100%;
+        padding-bottom: 20px;
+    }
 }
 
-.button {
+button {
     color: #fff !important;
     background-color: #4aaaa5 !important;
     border-color: #4aaaa5 !important;
+    position: relative;
+    overflow: hidden;
+    transition: background 400ms;
+    color: #fff;
+    background-color: #6200ee;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    outline: 0;
+    border: 0;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 0 4px #999;
+    outline: none;
 }
+
+/* Ripple effect */
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+}
+.ripple:hover {
+    background: #fff radial-gradient(circle, transparent 1%, #fff 1%) center/15000%;
+}
+.ripple:active {
+    background-color: #fff;
+    background-size: 100%;
+    transition: background 0s;
+} 
 
 /* footer section*/
 
