@@ -7,8 +7,8 @@ h1, h2 {
 /* body section*/
 
 body {
-    background-image: url("../images/background.png");
-    background-color: #cccccc;
+    background-image: url("../images/blue-retro.jpg");
+    background-color: #b5caf7;
     font-family: sans-serif;
     padding-bottom: 60px;
     display: grid;
@@ -17,7 +17,7 @@ body {
 /* header section*/
 
 header nav h1 {
-    background-color: #4aaaa5;
+    background-color: #1a87e0;
     font-weight: bold;
 }
 
@@ -30,7 +30,7 @@ main {
 }
 
 #title {
-    color: #4aaaa5;
+    color: #1a87e0;
     background-color: transparent;
     font-weight: bold;
 }
@@ -78,8 +78,8 @@ main {
 
 button {
     color: #fff !important;
-    background-color: #4aaaa5 !important;
-    border-color: #4aaaa5 !important;
+    background-color:  #1a87e0 !important;
+    border-color:  #1a87e0 !important;
     position: relative;
     overflow: hidden;
     transition: background 400ms;
@@ -118,6 +118,6 @@ button {
 .footer {
     height: 60px; /* Set the fixed height of the footer here */
     line-height: 60px; /* Vertically center the text there */
-    background-color: #666666;
-    border-top: 5px solid #4aaaa5;
+    background-color: #8f8f8f;
+    border-top: 5px solid  #1a87e0;
 }
