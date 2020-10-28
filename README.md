@@ -1,12 +1,8 @@
-# Responsive Portfolio
+# SDOC-Portfolio
 
 ## Description 
 
 This is my portfolio site. It currently uses html, bootstrap and some minor css. The site is configured to be mobile friendly.
-
-Future upgrades include:
-* Implementing javascript for [contact.html](contact.html) to allow people to contact me through email.
-* Adding pictures to my projects in my [portfolio.html](portfolio.html).
 
 ## Installation
 
