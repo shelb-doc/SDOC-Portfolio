@@ -1,7 +1,11 @@
 /* Common section*/
 
-h1, h2 {
+h1, h2, {
     font-family: 'Rubik', sans-serif;
+}
+h4{
+    font-family: 'Rubik', sans-serif;
+    color: #0c5da0;
 }
 
 /* body section*/
