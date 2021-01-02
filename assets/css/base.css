@@ -127,7 +127,9 @@ button {
 
 /* footer section*/
 #clickableAwesomeFont {
-    cursor: pointer
+    cursor: pointer;
+    width: 50% !important;
+    height: 50% !important;
 }
 
 .footer {
