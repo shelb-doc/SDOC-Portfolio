@@ -1,6 +1,6 @@
 # SDOC-Portfolio
 
-## Description 
+## Description
 
 This is my portfolio site. It currently uses html, bootstrap and some minor css. The site is configured to be mobile friendly.
 
